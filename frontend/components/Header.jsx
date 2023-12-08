@@ -23,7 +23,6 @@ const Header = () => {
         setShow("shadow-sm");
       }
     } else {
-      H;
       setShow("translate-y-0");
     }
     setLastScrollY(window.scrollY);

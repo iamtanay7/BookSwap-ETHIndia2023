@@ -11,14 +11,14 @@ const NavIcons = () => {
         <div className="text-zinc-600  text-[16px] font-semibold">Wishlist</div>
       </Link>
 
-      <Link href="/login">
+      {/* <Link href="/login">
         <li className="hidden md:flex text-zinc-600  text-[16px] font-semibold justify-center items-center  transition-transform active:scale-90">
           Login
         </li>
-      </Link>
+      </Link> */}
       <Link href="/register">
         <li className=" hidden md:flex h-10 px-5  text-[14px] leading-tight text-white justify-center items-center  bg-[#228D5A] rounded-lg transition-transform hover:bg-[#228D5A]/[0.8] active:scale-90">
-          Sign Up
+          Connect Wallet
         </li>
       </Link>
     </div>
