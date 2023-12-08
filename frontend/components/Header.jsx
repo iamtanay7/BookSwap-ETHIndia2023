@@ -1,6 +1,7 @@
 import Link from "next/link";
 import Wrapper from "./Wrapper";
 import { useState, useEffect } from "react";
+import Search from "./Search";
 
 const Header = () => {
   const [show, setShow] = useState("translate-y-0");
@@ -21,6 +22,7 @@ const Header = () => {
         setShow("shadow-sm");
       }
     } else {
+      H;
       setShow("translate-y-0");
     }
     setLastScrollY(window.scrollY);
@@ -49,6 +51,7 @@ const Header = () => {
               className="w-[100px] md:w-[140px]"
             />
           </Link>
+          <Search></Search>
         </Wrapper>
       </header>
     </>
