@@ -8,7 +8,7 @@ const ProductCard = ({ data }) => {
     <div>
       <div className="transform  md:w-[213px] md:h-[253px] flex items-center justify-center  overflow-hidden bg-[#F6F6F6] duration-200 hover:scale-105 ">
         <div>
-          <Link href={`/product/${data?.id}`}>
+          <Link href={`/product/5`}>
             <img
               className="w-[130px]"
               alt="product book image"
@@ -25,14 +25,14 @@ const ProductCard = ({ data }) => {
       <div className="mt-2 pb-2">
         <div className="flex flex-col  ">
           <div className="text-black text-[16px] font-bold -mb-1">
-            {data?.title}
+            Nineteen Eighty four
           </div>
           <div className="text-black text-[13px] font-normal">
-            {data?.author}
+            George Orwell
           </div>
           <div className="flex items-center gap-1">
             <div className="text-[13px] font-normal text-black">
-              {data?.rating}
+              4
             </div>
             <AiOutlineStar className="md:text-[12px] text-[4px]"></AiOutlineStar>
           </div>
