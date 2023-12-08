@@ -14,7 +14,7 @@ function Search() {
     >
       <div className="relative w-full  flex-row  flex bg-zinc-100 rounded-lg shadow-sm">
         <input
-        //   onClick={handleClick}
+          //   onClick={handleClick}
           onChange={(e) => setSearchText(e.target.value)}
           placeholder="Search Books "
           className="w-full text-zinc-400 pl-8 text-[14px] font-semibold h-[50px] rounded-bl-lg bg-zinc-100 focus:bg-[#FFFFFF] rounded-tl-lg   outline-none"
