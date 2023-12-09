@@ -1,7 +1,10 @@
-require("@nomicfoundation/hardhat-toolbox");
+require("@nomiclabs/hardhat-waffle");
+require("hardhat-deploy");
+require("hardhat-deploy-ethers");
+require("@nomiclabs/hardhat-etherscan");
 
 module.exports = {
-  solidity: "0.8.22",
+  solidity: "0.8.23",
   networks: {
     scrollSepolia: {
       url: "https://sepolia-rpc.scroll.io",
