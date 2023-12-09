@@ -4,6 +4,9 @@ import Link from "next/link";
 const NavIcons = () => {
   return (
     <div className="-ml-12 -mr-8 justify-between gap-4 hidden md:flex items-center">
+      <Link href="/uploadImage">
+        <div className="text-zinc-600  text-[16px] font-semibold">Upload</div>
+      </Link>
       <Link href="">
         <div className="text-zinc-600  text-[16px] font-semibold">Browse</div>
       </Link>
