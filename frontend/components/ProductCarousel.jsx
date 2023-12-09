@@ -34,13 +34,13 @@ const ProudctCarousel = ({ data }) => {
         {/* {data?.map((book) => (
           <ProductCard key={book.id} data={book}></ProductCard>
         ))} */}
+        {/* <ProductCard ></ProductCard> */}
+        <ProductCard ></ProductCard>
+        {/* <ProductCard ></ProductCard>
         <ProductCard ></ProductCard>
         <ProductCard ></ProductCard>
         <ProductCard ></ProductCard>
-        <ProductCard ></ProductCard>
-        <ProductCard ></ProductCard>
-        <ProductCard ></ProductCard>
-        <ProductCard ></ProductCard>  
+        <ProductCard ></ProductCard>   */}
         {/* <ProductCard></ProductCard>
         <ProductCard></ProductCard>
         <ProductCard></ProductCard>

@@ -26,14 +26,13 @@ const Schedule = () => {
       note,
     };
 
-    if (date && location) {
-      successButton();
+    // if (date && location) {
       router.push({
-        pathname: `/pending/${receivedData.slug}`,
+        pathname: `/pending/neha`,
         query: { data: JSON.stringify(dataToSend) }, // Convert object to JSON string and send as a query parameter
       });
       return;
-    }
+    // }
   };
 
   return (

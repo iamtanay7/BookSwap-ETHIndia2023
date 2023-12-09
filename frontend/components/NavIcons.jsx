@@ -32,7 +32,7 @@ const NavIcons = () => {
       <Link href="/uploadImage">
         <div className="text-zinc-600  text-[16px] font-semibold">Upload</div>
       </Link>
-      <Link href="/chats">
+      <Link href="/chat">
         <div className="text-zinc-600  text-[16px] font-semibold">Chat</div>
       </Link>
       <Link href="/wishlist">

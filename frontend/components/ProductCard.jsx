@@ -2,6 +2,7 @@ import Link from "next/link";
 import React from "react";
 import { IoMdHeartEmpty } from "react-icons/io";
 import { AiOutlineStar } from "react-icons/ai";
+import PeopleNearMe from "./PeopleNearMe";
 
 const ProductCard = ({ data }) => {
   return (
@@ -38,6 +39,7 @@ const ProductCard = ({ data }) => {
           </div>
         </div>
       </div>
+      {/* <PeopleNearMe/> */}
     </div>
   );
 };

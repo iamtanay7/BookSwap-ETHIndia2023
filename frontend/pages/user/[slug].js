@@ -45,16 +45,16 @@ const User = () => {
           <div className="gap-4 md:gap-16  flex flex-col justify-center  md:pt-4 md:pl-8">
             <section className="flex flex-col justify-center pt-4 md:pt-4  ">
               <div class="text-center md:text-start md:w-full h-[30px] md:h-[49px] text-black text-[32px] font-semibold">
-                {user?.name}
+               Neha
               </div>
               <div class="md:w-[236px] pt-1 md:pt-0 text-center md:text-start h-[63px] text-black text-[16px] font-normal -mb-4">
-                {user?.miles_away} Miles away
+                45 Miles away
                 <br />
               </div>
 
               <div className="flex md:gap-8 gap-4 md:justify-start justify-center">
                 <div class="text-black text-[24px] font-normal">
-                  {user?.user_rating}
+                  4.4
                 </div>
                 <div class="text-black text-[13px] font-normal underline">
                   (17 reviews)
@@ -95,17 +95,17 @@ const User = () => {
           <div className="flex flex-row gap-4 overflow-auto">
             <img
               className="h-[230px]  object-contain"
-              src="/assets/book1.png"
+              src="https://bookswap-colab.vercel.app/assets/book1.png"
               alt="book image"
             ></img>
             <img
               className="h-[230px]  object-contain"
-              src="/assets/book3.png"
+              src="https://bookswap-colab.vercel.app/assets/book3.png"
               alt="book image"
             ></img>
             <img
               className="h-[230px]  object-contain"
-              src="/assets/book2.png"
+              src="https://bookswap-colab.vercel.app/assets/book2.png"
               alt="book image"
             ></img>
           </div>
