@@ -55,7 +55,7 @@ const ProductDetails = () => {
               <div className="text-center md:text-start">
                 <button className="shadow-sm md:w-[263px] w-[250px] h-[50px] md:h-[66px] bg-[#228D5A] rounded-xl transform hover:scale-105 duration-300 ease-in-out">
                   <div className="md:w-[245.54px] text-center text-[#FFF1F1] md:text-[20px] font-semibold">
-                    45 Books Available
+                    Swap Book
                   </div>
                 </button>
               </div>
@@ -64,6 +64,7 @@ const ProductDetails = () => {
           </div>
         </section>
         {/* book Image and Titles section end */}
+        
       </Wrapper>
     </div>
   );
