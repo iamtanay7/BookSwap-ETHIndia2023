@@ -22,7 +22,7 @@ const ProudctCarousel = ({ data }) => {
   const book = {
     id: 1,
     title: "The Midnight Library",
-  }
+  };
 
   return (
     <div className="mt-8 mb-[100px] md:mb-0">
@@ -31,22 +31,12 @@ const ProudctCarousel = ({ data }) => {
         containerClass="-mx-[10px]"
         itemClass="px-[10px]"
       >
-        {/* {data?.map((book) => (
-          <ProductCard key={book.id} data={book}></ProductCard>
-        ))} */}
-        {/* <ProductCard ></ProductCard> */}
-        <ProductCard ></ProductCard>
-        {/* <ProductCard ></ProductCard>
-        <ProductCard ></ProductCard>
-        <ProductCard ></ProductCard>
-        <ProductCard ></ProductCard>
-        <ProductCard ></ProductCard>   */}
-        {/* <ProductCard></ProductCard>
         <ProductCard></ProductCard>
         <ProductCard></ProductCard>
         <ProductCard></ProductCard>
         <ProductCard></ProductCard>
-        <ProductCard></ProductCard> */}
+        <ProductCard></ProductCard>
+        <ProductCard></ProductCard>
       </Carousel>
     </div>
   );

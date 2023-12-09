@@ -22,6 +22,7 @@ const ChatComponent = () => {
 
   return (
     <div className="flex flex-col h-screen">
+        <h2 className="flex place-items-center justify-center bg-white text-yellow-400 text-lg ">PUSH REALTIME CHAT</h2>
       <div className="flex-1 overflow-y-auto bg-gray-100 p-4">
         {messages.map((message) => (
           <div
